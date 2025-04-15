@@ -4,13 +4,32 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh; /* Aseguramos que el body ocupe toda la altura de la ventana */
+    background-color: aqua;
+}
 p{
     color: blue;
 }
 
-.section{
-    height: 200px;
-    margin-right: 2%;
+.common-class{
+    height: 33.33%;
     width: auto;
-    background-color: red;
+}
+section{
+    background-color: darkorange;
+}
+
+header{
+    background-color: darkkhaki;
+}
+
+footer{
+    background-color: peru;
+}
+
+.cuadradito{
+    width: 100px;
+    height: 50px; 
+    background-color: #FF5733; 
 }
