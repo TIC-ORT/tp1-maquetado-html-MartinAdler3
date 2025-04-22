@@ -16,12 +16,18 @@ p{
     height: 33.33%;
     width: auto;
 }
-section{
-    background-color: darkorange;
-}
 
 header{
     background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+section{
+    background-color: darkorange;
 }
 
 footer{
