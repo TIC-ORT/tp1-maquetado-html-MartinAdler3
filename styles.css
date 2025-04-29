@@ -26,9 +26,7 @@ header{
     flex-direction: column;
 }
 
-footer{
-    background-color: peru;
-}
+
 
 .rectangulo{
     width: 80%;
@@ -140,4 +138,30 @@ section{
     height: 100%;
     width: 100%;
     background-color: white;
+}
+
+footer{
+    background-color: peru;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-inferior{
+    height: 100%;
+    width: 70%;
+    background-color:firebrick;
+}
+
+.cubo{
+    height: 100%;
+    width: 20%;
+    background-color:silver;
+    margin: 4%;
+}
+
+.alo{
+    height: 100%;
+    width: 20%;
+    background-color:purple;
 }
