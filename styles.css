@@ -8,25 +8,21 @@ body{
     height: 100vh; /* Aseguramos que el body ocupe toda la altura de la ventana */
     background-color: aqua;
 }
-p{
-    color: blue;
-}
 
-.common-class{
+
+header,main,footer{
     height: 33.33%;
     width: auto;
 }
 
 header{
-    background-color: darkkhaki;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
-
-
 
 .rectangulo{
     width: 80%;
@@ -47,18 +43,18 @@ header{
     justify-content: center;
 }
 
-partecitas{
+.partecitas{
     margin-top: auto;
     width: 80%;
     height: 10%;
 }
 
-.segunda-seccion{
+#segunda-seccion{
     display: flex;
     justify-content: space-between;
 }
 
-gris{
+.gris{
     background-color: gray;
     height: 100%;
     width: 20%;
@@ -67,7 +63,7 @@ gris{
 .sec1{
     width: 40%;
     height: 40%;
-    background-color: blue;
+    background-color: #ff9978;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,19 +79,18 @@ gris{
 .sec2{
     aspect-ratio: 1/1; /* hace que el width tenga la misma cantidad de pixeles que el height */
     height: 40%;
-    background-color: green;
+    background-color: #656a73;
 }
 
-section{
-    background-color: darkorange;
+main{
     display: flex;
     flex-direction: row;
+    background-color: #c4edf1;
 }
 
 .parte1{
     margin-left: 5%;
     margin-right: 5px;
-    background-color: aqua;
     width: 40%;
     height: 100%;
     display: flex;
@@ -106,7 +101,7 @@ section{
 .cuadrado-de-texto{
     aspect-ratio: 1/1;
     height: 70%;
-    background-color: hotpink; 
+    background-color: #91d3d9; 
     display: flex;
     align-items: center;
     justify-content: top;
@@ -115,9 +110,21 @@ section{
 
 .parte2{
     margin-right: 5%;
-    background-color: aqua;
-    width: 100%;
+    width: 60%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cuadrado-texto-grande{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .primera-categoria{
@@ -130,7 +137,7 @@ section{
 
 .cuadrado-blanco{
     margin-right: 10%;
-    background-color: forestgreen;
+    background-color: #c2ecf0;
     height: 100%;
     aspect-ratio: 1/1;
 }
@@ -141,27 +148,71 @@ section{
 }
 
 footer{
-    background-color: peru;
-    display: flex;    
+    background-color: #ffffff;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.parte-inferior{
+.division-footer{
     height: 100%;
-    width: 70%;
-    background-color:firebrick;
+    width: 80%;
+    display: flex;
 }
 
-.cubo{
+.cuadrado-footer{
     height: 100%;
-    width: 20%;
-    background-color:silver;
-    margin: 4%;
+    width: 33.33%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.alo{
+.cuadrado-imagen{
     height: 100%;
-    width: 20%;
-    background-color:purple;
+    aspect-ratio: 1/1;
+    display: flex;
+    margin-top: 10%;
+    background-color: darkblue;
+}
+
+.cuadrado-texto{
+    margin: 5%;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    margin-bottom: 5%;
+    height: 20%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+.acortado{
+    width: 50%;
+}
+
+.oscuro{
+    background-color: #cccbca;
+}
+
+.titulo{
+    background-color: #656a73;
+    height: 70%;
+}
+
+#ci1{
+    background-color: #ff9978;
+}
+
+#ci2{
+    background-color: #abe0e5;
+}
+
+#ci3{
+    background-color: #ffc86d;
 }
