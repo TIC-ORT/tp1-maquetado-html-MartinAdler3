@@ -106,7 +106,7 @@ section{
 .cuadrado-de-texto{
     aspect-ratio: 1/1;
     height: 70%;
-    background-color: hotpink;
+    background-color: hotpink; 
     display: flex;
     align-items: center;
     justify-content: top;
